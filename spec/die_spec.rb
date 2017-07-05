@@ -1,5 +1,6 @@
 require'minitest/autorun'
 require_relative'../die.rb'
+require_relative'../player.rb'
 
 class TestDie < MiniTest::Test
 

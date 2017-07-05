@@ -6,8 +6,9 @@ class Die
     @faces = [1, 2, 3, 4, 5, 6]
   end
 
+public
   def roll_dice
-    @faces.sample
+    return @faces.sample
   end
 
 end
