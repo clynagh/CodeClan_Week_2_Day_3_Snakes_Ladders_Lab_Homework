@@ -19,6 +19,10 @@ class TestPlayer < MiniTest::Test
     assert_equal(new_board_position, @player_1.board_position)
   end
 
+  def test_check_board_position
+    assert_equal(0, @player_1.board_position)
+  end
+
 
 
 
