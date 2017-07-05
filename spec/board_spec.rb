@@ -8,7 +8,7 @@ class TestBoard < MiniTest::Test
   end
 
   def test_initialize
-    assert_equal([1..100], @board_1.spaces)
+    assert_equal(100, @board_1.spaces.length)
   end
 
 end

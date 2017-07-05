@@ -3,7 +3,7 @@ class Board
   attr_reader :spaces
 
   def initialize
-    @spaces = [1..100]
+    @spaces = Array.new(100)
   end
 
 end
